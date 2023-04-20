@@ -47,6 +47,9 @@ header .content {
   display: flex;
   align-items: center;
   padding: 1.875rem;
+  font-size: 1.5rem;
+  color: #4A4A4A;
+  font-family: "Roboto-Mono-Regular", "Roboto", sans-serif;
 }
 
 header .logo {
@@ -118,10 +121,16 @@ header .mobile {
   align-items: flex-start;
   height: 43.5rem;
   background-image: url("../images/banner-landingpage.jpg");
+  width: 150rem;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #sign-up-cta {
   padding: 0 5rem 2.5rem 5rem;
+  margin-top: 10.625rem;
+  margin-bottom: 10.625rem;
+  margin-left: 6.25rem;
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
@@ -211,7 +220,7 @@ header .mobile {
 /* Features Section */
 
 #features-section {
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
   padding: 4rem 5%;
   background-color: #f3f3f3;
@@ -297,6 +306,7 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
 }
 
 @media only screen and (max-width: 760px) {
